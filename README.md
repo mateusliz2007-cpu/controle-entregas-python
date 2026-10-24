@@ -1,52 +1,66 @@
 
-# Sistema de Gestão de Entregas
+# 📦 Sistema de Gestão de Entregas
 
-Aplicação desenvolvida em Python com foco na gestão de entregas e na aplicação de conceitos de programação a problemas de logística e operações de transporte.
+🚚 **Uma aplicação em Python voltada à gestão de entregas e à resolução de problemas relacionados à logística e às operações de transporte.**
 
-O projeto faz parte do meu aprendizado em programação, com o objetivo de desenvolver soluções que ajudem a organizar informações e apoiar análises operacionais.
+Este projeto faz parte da minha jornada de aprendizado em programação, conectando tecnologia e **Engenharia de Transportes e Logística**.
 
-## Objetivos do projeto
+---
 
-- Aplicar lógica de programação em um contexto logístico.
-- Praticar a organização e o processamento de dados.
-- Desenvolver habilidades de validação de entradas e apresentação de resultados.
-- Construir uma base para futuros projetos de análise de dados e otimização de transportes.
+## 🎯 Sobre o projeto
 
-## Tecnologias utilizadas
+A proposta é aplicar conceitos de programação para organizar informações e realizar operações relacionadas à gestão de entregas.
 
-- **Python** — desenvolvimento da aplicação.
-- **Git** — controle de versão.
-- **GitHub** — hospedagem do código e documentação do projeto.
+Mais do que escrever código, o objetivo é desenvolver a capacidade de transformar problemas operacionais em soluções computacionais.
 
-## Como executar
+## 🛠️ Tecnologias utilizadas
 
-### Pré-requisito
+| Tecnologia | Aplicação |
+|---|---|
+| 🐍 Python | Desenvolvimento do sistema |
+| 🔧 Git | Controle de versão |
+| 🐙 GitHub | Hospedagem e documentação do projeto |
 
-Ter o [Python](https://www.python.org/downloads/) instalado.
+## ▶️ Como executar
 
-### Execução
+### 📋 Pré-requisito
 
-1. Clone este repositório ou baixe os arquivos.
-2. Abra o terminal na pasta do projeto.
-3. Execute:
+Ter o [Python instalado](https://www.python.org/downloads/).
+
+### 🚀 Rodando o projeto
+
+**1.** Clone o repositório ou baixe os arquivos.
+
+**2.** Abra o terminal na pasta do projeto.
+
+**3.** Execute o comando:
 
 ```bash
 python main.py
 ```
 
-Se o comando acima não funcionar no Windows, tente:
+💡 **Dica para Windows:** se necessário, tente `py main.py`.
 
-```bash
-py main.py
-```
+---
 
-## Contexto acadêmico
+## 🧠 O que estou desenvolvendo
 
-Projeto pessoal desenvolvido para aprofundar conhecimentos de programação e explorar aplicações práticas relacionadas à Engenharia de Transportes e Logística.
+- 💻 Raciocínio lógico e resolução de problemas com Python.
+- 📊 Organização e processamento de informações.
+- ✅ Validação de entradas e apresentação de resultados.
+- 🚛 Aplicação da programação a problemas de transporte e logística.
 
-## Próximos passos
+## 🗺️ Próximos passos
 
-- Aprimorar a organização e a manutenção do código.
-- Expandir os recursos de gestão e análise de entregas.
-- Explorar indicadores operacionais relevantes para a logística.
-- Evoluir o projeto conforme o aprendizado em Python e análise de dados.
+- [ ] ✨ Aprimorar a estrutura e a legibilidade do código.
+- [ ] 📦 Expandir os recursos de gestão de entregas.
+- [ ] 📈 Explorar indicadores de desempenho logístico.
+- [ ] 🧮 Desenvolver análises que apoiem decisões operacionais.
+
+---
+
+## 👨‍💻 Sobre o projeto
+
+Projeto pessoal desenvolvido como parte do meu aprendizado em **Engenharia de Transportes e Logística**, com interesse em programação, análise de dados e otimização de operações.
+
+📌 **Objetivo:** construir soluções tecnológicas aplicadas a desafios reais da logística.
