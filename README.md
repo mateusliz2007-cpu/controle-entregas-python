@@ -1,66 +1,138 @@
 
 # 📦 Sistema de Gestão de Entregas
 
-🚚 **Uma aplicação em Python voltada à gestão de entregas e à resolução de problemas relacionados à logística e às operações de transporte.**
+🚚 **Transformando dados de entregas em informações operacionais com Python.**
 
-Este projeto faz parte da minha jornada de aprendizado em programação, conectando tecnologia e **Engenharia de Transportes e Logística**.
+Projeto pessoal desenvolvido para aplicar programação a problemas de **Engenharia de Transportes e Logística**, com cadastro de entregas, cálculo de indicadores e geração de relatórios operacionais.
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Status-Em%20desenvolvimento-orange" alt="Em desenvolvimento"/>
+  <img src="https://img.shields.io/badge/Área-Logística-2ea44f" alt="Logística"/>
+</p>
 
 ---
 
-## 🎯 Sobre o projeto
+## 🚀 Funcionalidades
 
-A proposta é aplicar conceitos de programação para organizar informações e realizar operações relacionadas à gestão de entregas.
+### 📋 Cadastro de entregas
+- Registro da quantidade de entregas.
+- Cadastro de cliente e cidade.
+- Registro de distância percorrida, peso e valor da entrega.
+- Validação de entradas numéricas e de valores positivos.
 
-Mais do que escrever código, o objetivo é desenvolver a capacidade de transformar problemas operacionais em soluções computacionais.
+### 📊 Resumo operacional
+- 💰 Valor total das entregas.
+- 🛣️ Distância total registrada.
+- ⚖️ Peso total transportado.
 
-## 🛠️ Tecnologias utilizadas
+### 📈 Indicadores médios
+- Valor médio por entrega.
+- Distância média por entrega.
+- Peso médio por entrega.
 
-| Tecnologia | Aplicação |
+### 🏆 Maiores indicadores
+- Maior distância registrada.
+- Maior valor de entrega.
+- Maior peso registrado.
+
+### 🧾 Relatórios individuais
+Para cada entrega, o sistema apresenta:
+- Cliente e cidade.
+- Distância, peso e valor.
+- Valor por quilômetro.
+- Valor por quilograma.
+
+### 🇧🇷 Formatação brasileira
+Os valores numéricos são apresentados com vírgula decimal e ponto para separar milhares.
+
+---
+
+## 🖥️ Exemplo de utilização
+
+O sistema solicita os dados de cada entrega e, ao final, apresenta um resumo operacional e os relatórios individuais.
+
+Exemplo ilustrativo de indicadores para duas entregas:
+
+| Indicador | Resultado |
+|---|---:|
+| 📦 Entregas registradas | 2 |
+| 💰 Valor total | R$ 800,00 |
+| 🛣️ Distância total | 150,00 km |
+| ⚖️ Peso total | 300,00 kg |
+| 💵 Valor médio por entrega | R$ 400,00 |
+| 📏 Distância média | 75,00 km |
+
+> ℹ️ Os números acima são apenas ilustrativos. Os resultados reais dependem dos dados informados durante a execução.
+
+---
+
+## 🛠️ Tecnologias e conceitos
+
+| Tecnologia / conceito | Aplicação |
 |---|---|
-| 🐍 Python | Desenvolvimento do sistema |
-| 🔧 Git | Controle de versão |
-| 🐙 GitHub | Hospedagem e documentação do projeto |
+| 🐍 Python | Lógica e desenvolvimento do sistema |
+| 📚 Listas | Armazenamento dos dados das entregas |
+| 🔁 Laços de repetição | Cadastro e validação das entradas |
+| 🛡️ Tratamento de exceções | Tratamento de entradas numéricas inválidas |
+| 🧮 Funções | Formatação de números |
+| 📊 Operações com dados | Totais, médias e identificação de máximos |
+| 🔧 Git e GitHub | Controle de versão e hospedagem do projeto |
+
+---
 
 ## ▶️ Como executar
 
-### 📋 Pré-requisito
-
+### Pré-requisito
 Ter o [Python instalado](https://www.python.org/downloads/).
 
-### 🚀 Rodando o projeto
+### Passos
 
-**1.** Clone o repositório ou baixe os arquivos.
+1. Clone o repositório:
 
-**2.** Abra o terminal na pasta do projeto.
+   ```bash
+   git clone https://github.com/mateusliz2007-cpu/controle-entregas-python.git
+   ```
 
-**3.** Execute o comando:
+2. Entre na pasta do projeto:
 
-```bash
-python main.py
-```
+   ```bash
+   cd controle-entregas-python
+   ```
 
-💡 **Dica para Windows:** se necessário, tente `py main.py`.
+3. Execute o programa:
+
+   ```bash
+   python main.py
+   ```
+
+   💡 No Windows, também é possível utilizar `py main.py`.
 
 ---
 
-## 🧠 O que estou desenvolvendo
+## 🎯 Objetivos de aprendizado
 
-- 💻 Raciocínio lógico e resolução de problemas com Python.
-- 📊 Organização e processamento de informações.
-- ✅ Validação de entradas e apresentação de resultados.
-- 🚛 Aplicação da programação a problemas de transporte e logística.
+Este projeto faz parte do meu desenvolvimento em programação, buscando conectar conhecimentos técnicos a aplicações práticas na logística.
+
+- 💻 Desenvolver raciocínio lógico com Python.
+- 📊 Trabalhar com dados e indicadores operacionais.
+- 🚛 Explorar problemas relacionados a transporte e entregas.
+- 📈 Evoluir para projetos de análise de dados e otimização logística.
 
 ## 🗺️ Próximos passos
 
-- [ ] ✨ Aprimorar a estrutura e a legibilidade do código.
-- [ ] 📦 Expandir os recursos de gestão de entregas.
-- [ ] 📈 Explorar indicadores de desempenho logístico.
-- [ ] 🧮 Desenvolver análises que apoiem decisões operacionais.
+- [ ] 🧹 Melhorar a organização e a estrutura do código.
+- [ ] 💾 Explorar formas de salvar os dados das entregas.
+- [ ] 📊 Ampliar os indicadores de desempenho logístico.
+- [ ] 📉 Criar análises comparativas entre entregas.
+- [ ] 🧪 Desenvolver testes para validar os cálculos.
 
 ---
 
-## 👨‍💻 Sobre o projeto
+## 👨‍💻 Sobre
 
-Projeto pessoal desenvolvido como parte do meu aprendizado em **Engenharia de Transportes e Logística**, com interesse em programação, análise de dados e otimização de operações.
+Desenvolvido por **Mateus**, estudante de Engenharia de Transportes e Logística, como projeto de aprendizado em Python.
 
-📌 **Objetivo:** construir soluções tecnológicas aplicadas a desafios reais da logística.
+🔗 **Repositório:** [controle-entregas-python](https://github.com/mateusliz2007-cpu/controle-entregas-python)
+
+💡 **Interesses:** logística, transporte, análise de dados, programação e otimização de operações.
